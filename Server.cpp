@@ -200,7 +200,7 @@ private:
                         auto newroom = game_room(name);
                         rooms.push_back(newroom);
                         if (debug)
-                            std::cout << "Game " << name << " created" << std::endl;
+                            std::cout << "Room " << name << " created" << std::endl;
                         self->roomID = rooms.size() - 1;
                     }
                     self->get_room().join(self);
